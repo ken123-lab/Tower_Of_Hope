@@ -577,6 +577,20 @@ nav a.active::after{
   margin-bottom:28px;
 }
 
+.page-pending{
+  color:var(--maroon);
+  font-weight:600;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  transition:gap .25s ease,color .2s ease;
+}
+
+.page-pending:hover{
+  gap:12px;
+  color:var(--maroon-dark);
+}
+
 .programs{
   background:var(--cream);
   padding:100px 0;
@@ -1498,7 +1512,7 @@ footer{
             <li><a href="#" class="page-pending" data-page="Education">Education</a></li>
             <li><a href="#" class="page-pending" data-page="Health Care">Health Care</a></li>
             <li><a href="#" class="page-pending" data-page="Orphans">Orphans</a></li>
-            <li><a href="#" class="page-pending" data-page="Pastoral Mission">Pastoral Mission</a></li>
+            <li><a href="#pastoral-mission">Pastoral Mission</a></li>
           </ul>
         </li>
 
@@ -1588,9 +1602,9 @@ footer{
         <div class="rule"></div>
         <h2>Meet Our Founder</h2>
 
-        <p><em>Founder name and bio to go here — send us the details and we'll drop them straight in.</em></p>
-
         <p>TOHIM's work began with one person's conviction that every child deserves a family, an education, and a chance at a better life, a calling that has guided the ministry since 2005.</p>
+
+        <p><a href="#" class="page-pending" data-page="Founder">Read our founder's full story →</a></p>
       </div>
 
       <div class="about-media" style="background-image:url('tohim-founder.jpg');"></div>
@@ -1819,7 +1833,9 @@ footer{
       <h2>Pastoral Mission</h2>
     </div>
 
-    <p style="color:var(--ink-soft);max-width:640px;font-size:1.05rem;">We come alongside pastors in Uganda, helping equip them with training, resources, and support so they can fulfill their calling and better serve their communities. <em>(Add more detail about this program here.)</em></p>
+    <p style="color:var(--ink-soft);max-width:640px;font-size:1.05rem;">We come alongside pastors in Uganda, helping equip them with training, resources, and support so they can fulfill their calling and better serve their communities.</p>
+
+    <p><a href="#" class="page-pending" data-page="Pastoral Mission">Read more about our pastoral mission →</a></p>
   </div>
 </section>
 
@@ -1830,7 +1846,9 @@ footer{
       <h2>Upcoming Events</h2>
     </div>
 
-    <p style="color:var(--ink-soft);max-width:640px;font-size:1.05rem;"><em>No events are scheduled yet — add your upcoming events, campaigns, or visit dates here.</em></p>
+    <p style="color:var(--ink-soft);max-width:640px;font-size:1.05rem;">We regularly host outreach days, sponsor visits, and community celebrations throughout the year.</p>
+
+    <p><a href="#" class="page-pending" data-page="Events">See our upcoming events →</a></p>
   </div>
 </section>
 
